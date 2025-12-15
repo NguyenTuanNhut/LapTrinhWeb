@@ -118,11 +118,7 @@ cd server2
 # Cài đặt dependencies
 npm install
 
-# Tạo file .env
-# Thêm các biến sau:
-# MONGO_URI=mongodb://localhost:27017/education_portal
-# PORT=5000
-# JWT_SECRET=your_secret_key
+
 
 # Chạy seeder để nhập dữ liệu mẫu (nếu cần)
 npm run seed
@@ -149,18 +145,7 @@ npm run dev
 # Frontend chạy trên: http://localhost:5173
 ```
 
-### 3️⃣ Cấu Hình MongoDB
 
-```bash
-# Nếu dùng MongoDB local
-mongod
-
-# Hoặc dùng MongoDB Atlas (cloud)
-# Cập nhật MONGO_URI trong .env
-# MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/education_portal
-```
-
----
 
 ## 🏗️ Kiến Trúc Ứng Dụng
 
